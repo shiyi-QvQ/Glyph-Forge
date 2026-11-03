@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "creat-fonts",
+	"version": "${version}",
+	"name": "Glyph Forge",
+	"description": "Glyph Forge — 用可自由缩放的微型方块拼出任意文字，支持外部字体、不限行数/字数、单字大小与方块表面附着。 / Build arbitrary text from freely scaled mini blocks, with external fonts, unlimited lines, per-character sizing and surface attachment.",
+	"authors": [
+		"十一"
+	],
+	"contact": {},
+	"license": "Apache-2.0",
+	"icon": "assets/creat-fonts/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.creat.fonts.CreatFonts"
+		],
+		"client": [
+			"com.creat.fonts.client.CreatFontsClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.0.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

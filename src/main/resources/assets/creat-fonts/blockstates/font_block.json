@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "creat-fonts:block/font_block" },
+		"facing=south": { "model": "creat-fonts:block/font_block" },
+		"facing=east": { "model": "creat-fonts:block/font_block" },
+		"facing=west": { "model": "creat-fonts:block/font_block" }
+	}
+}
